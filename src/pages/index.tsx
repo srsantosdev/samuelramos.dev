@@ -80,7 +80,7 @@ export default function Home() {
                 transition={{ duration: 0.2, delay: 0.5 }}
               >
                 <AiOutlineDownload />
-                Download Curriculo
+                Baixar currículo
               </DownloadButton>
             </motion.div>
           </div>

@@ -140,7 +140,7 @@ export const DownloadButton = styled(motion.a)`
 export const SkillsContainer = styled.div`
   width: 100%;
 
-  margin-top: 16rem;
+  margin-top: 10rem;
 
   h2 {
     font-size: 3.4rem;
