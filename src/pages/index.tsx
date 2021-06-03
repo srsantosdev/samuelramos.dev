@@ -66,8 +66,8 @@ export default function Home() {
                 animate={{ x: 0, opacity: 1, }}
                 transition={{ duration: 0.2, delay: 0.5 }}
               >
-                Sou engenheiro de software, entusiasta das melhores tecnologias no mundo do desenvolvimento web/mobile.
-                Atualmente estou focado na stack Node.js, React e React Native e tudo relacionado a este ecossistema.
+                Engenheiro de software, entusiasta das melhores tecnologias no mundo do desenvolvimento web/mobile.
+                Atualmente estou focado na stack Node.js, React, React Native e tudo relacionado a este ecossistema.
                 Estou em constante aprendizado buscando aprender novas habilidades.
                 Amo enfrentar novos desafios e criar aplicações eficientes e esteticamente agradáveis.
               </motion.p>
@@ -88,7 +88,9 @@ export default function Home() {
 
         <SkillsContainer>
           <div>
-            <h2><span>Tecnologias</span> que utilizo</h2>
+            <h2>
+              <span>Tecnologias</span> que uso no dia a dia
+            </h2>
 
             <div className="skills-container">
               <Skill name="Typescript" level={[
@@ -139,6 +141,13 @@ export default function Home() {
                 { completed: true },
                 { completed: true },
                 { completed: true },
+              ]} />
+              <Skill name="Jest" level={[
+                { completed: true },
+                { completed: true },
+                { completed: true },
+                { completed: false },
+                { completed: false },
               ]} />
               <Skill name="HTML" level={[
                 { completed: true },

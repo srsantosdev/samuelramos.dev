@@ -68,6 +68,12 @@ export const Main = styled.main`
       display: flex;
       align-items: flex-start;
       gap: 4rem;
+
+      @media(max-width: 727px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 
@@ -108,6 +114,16 @@ export const Main = styled.main`
     a {
       margin-top: 2.4rem;
     }
+
+    @media(max-width: 727px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        text-align: center;
+      }
+    }
   }
 `
 
@@ -134,6 +150,13 @@ export const DownloadButton = styled(motion.a)`
 
   &:hover {
     filter: brightness(0.9);
+  }
+
+  @media(max-width: 727px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `
 
@@ -165,6 +188,10 @@ export const SkillsContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.4rem;
+
+    @media (max-width: 730px) {
+      grid-template-columns: 1fr;
+    }
   }
 `
 
@@ -184,11 +211,13 @@ export const Footer = styled.footer`
     align-items: center;
     justify-content: space-between;
 
-   
-
     > span {
       font-size: 1.2rem;
       color: #555;
+    }
+
+    @media(max-width: 727px) {
+      flex-direction: column;
     }
   }
 `
@@ -215,5 +244,9 @@ export const ContainerInfo = styled.div`
     span + span {
       margin-top: 0.8rem;
     }
+  }
+
+  @media(max-width: 727px) {
+    margin-bottom: 3.2rem;
   }
 `

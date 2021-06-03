@@ -11,6 +11,12 @@ export default createGlobalStyle`
     --white: #ffffff;
   }
 
+  @media (max-width: 727px) {
+    :root  {
+      font-size: 55.5%;
+    }
+  }
+
   * {
     margin: 0;
     padding: 0;
